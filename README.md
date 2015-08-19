@@ -1,6 +1,6 @@
 # PhysEng
-## Materials for a 10-hour short course in Probability and Statistics for Physicists and Engineers
-## Given first at University of Tokyo, August 2015
+## Materials for an introductory graduate course in Probability and Statistics for Physicists and Engineers
+## Given first as a short course at University of Tokyo, August 2015
 ## Philip B. Stark http://www.stat.berkeley.edu/~stark
 
 ### License: CC BY-NC-ND.  Non-commercial use with attribution; no derivative works.
