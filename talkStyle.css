@@ -65,7 +65,8 @@ div.text_cell_render {
 }
 
 .rendered_html .code {
-  background-color: #999999;
+  background-color: #FFFFFF;
+  font-family: Consolas;
 }
 
 .rendered_html h1 {
@@ -202,12 +203,6 @@ li:first-of-type {
     padding-bottom: 0.5em;
 }
 
-/* default style file for SticiGui text.
-   Copyright 2006-2013 P.B. Stark, statistics.berkeley.edu/~stark 4/20/2013.
-   All rights reserved.
-*/
-
-
 body {
     background-color: #ffffff;
     counter-reset: fncounter;
@@ -231,7 +226,6 @@ h3,h4,h5,h6 {
     margin-top: 2em;
     margin-right:  0em;
     padding-right: 0em;
-    /* display: run-in;  ELIMINATED FOR VIDEOS */
 }
 
 blockquote {
@@ -243,8 +237,8 @@ blockquote {
 
 p,table,li,dl,address {
     font-family: helvetica, arial, 'sans serif';
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 0%;
+    margin-right: 0%;
 }
 
 dd {
@@ -327,7 +321,7 @@ p.boxLabel {
 
 p.math {
     font-family: helvetica, arial, 'sans serif';
-    color: #000085;
+    color: #000000;
     text-align: center;
     font-style: italic;
 }
@@ -408,52 +402,6 @@ table.truthTable caption {
     font-weight: bold;
 }
 
-div.loginStub {
-    position: fixed;
-    top: 0;
-    left: 95%;
-    width: 5%;
-    height: 1.2em;
-    margin: 1px;
-    border-left: solid #000000;
-    border-bottom: solid #000000;
-    border-width: 2px;
-    background: #ddffdd;
-    color: #003300;
-    font-family: helvetica, arial, 'sans serif';
-    text-decoration: none;
-    font-variant: small-caps;
-    font-stretch: wider;
-    font-weight: bold;
-    z-index: 7;
-}
-
-#loginStub a {
-    display: block;
-    text-decoration: none;
-    font-variant: small-caps;
-    width: 11.5em;
-}
-
-div.loginBox {
-    position: fixed;
-    width: 90%;
-    height: 1.5em;
-    border-right: 1px solid #999999;
-    border-left: 1px solid #999999;
-    border-bottom: 1px solid #999999;
-    background: #ddffdd;
-    font-family: helvetica, arial, 'sans serif';
-    text-decoration: none;
-    color: #000000;
-    top: 0;
-    left: 10%;
-    margin: 1px;
-    padding: 2px;
-    text-align: center;
-    z-index: 8;
-}
-
 div.boxModel {
     display: block;
     font-family: helvetica, arial, 'sans serif';
@@ -521,16 +469,6 @@ div.plainTable {
     margin-top: 2em;
 }
 
-div.assignmentTable {
-    font-family: helvetica, arial, 'sans serif';
-    font-size: 100%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 2em;
-    margin-top: 2em;
-    border: solid #0000ff;
-}
-
 div.example {
     font-family: helvetica, arial, 'sans serif';
     font-size: 100%;
@@ -569,24 +507,6 @@ div.solution {
     display: block;
 }
 
-div.solutionLink {
-    font-family: helvetica, arial, 'sans serif';
-    font-size: 85%;
-    color: #000099;
-    margin-left: 0%;
-    margin-right: 0%;
-    display: block;
-}
-
-div.solLink {
-    font-family: helvetica, arial, 'sans serif';
-    font-size: 85%;
-    color: #000099;
-    margin-left: 0%;
-    margin-right: 0%;
-    display: block;
-}
-
 div.callout {
     font-family: helvetica, arial, 'sans serif';
     font-size: 105%;
@@ -597,122 +517,6 @@ div.callout {
     margin-right: 10%;
     padding:     2% 0% 2% 0%;
     text-align: left;
-}
-
-div.threeColumnLeft {
-    font-family: helvetica, arial, 'sans serif';
-    font-size:   95%;
-    font-weight: normal;
-    width:       30%;
-    padding:     0% 1% 2% 0%;
-    float:       left;
-}
-
-div.threeColumnMiddle {
-    font-family:  helvetica, arial, 'sans serif';
-    font-size:    95%;
-    font-weight:  normal;
-    padding:      1% 0% 0% 0%;
-    margin-left:  34%;
-    margin-right: 34%;
-}
-
-div.threeColumnRight {
-    font-family: helvetica, arial, 'sans serif';
-    font-size:   95%;
-    font-weight: normal;
-    padding:     0% 0% 2% 1%;
-    width:       30%;
-    float:       right;
-}
-
-div.columnFooter {
-    font-family: helvetica, arial, 'sans serif';
-    clear: both;
-}
-
-div.chapter {
-    opacity:0.9;
-    margin-top:5em;
-    margin-right: 5%;
-    margin-left: 5%;
-    position: static;
-    float: left;
-    z-index:1;
-}
-
-div.coursePage {
-    opacity:0.9;
-    margin-top:5em;
-    margin-right: 0%;
-    margin-left: 12%;
-    position: static;
-    float:left;
-    z-index:1;
-}
-
-div.floatMenuLeft {
-    font-family: helvetica, arial, 'sans serif';
-    font-size: 80%;
-    margin-left: 0%;
-    margin-right: 0%;
-    text-align: left;
-    float: left;
-    border-right: #333366;
-    position: fixed;
-}
-
-div.floatMenuTop {
-    font-family: helvetica, arial, 'sans serif';
-    font-size: 80%;
-    margin-left: 0%;
-    margin-right: 0%;
-    padding: 0.2em 0.2em 0.2em 0.2em;
-    text-align: left;
-    color: black;
-    position:fixed;
-    top:0;
-    left:0;
-    opacity:1;
-    clear: both;
-    background-color: #cccccc;
-    border-bottom: solid #ffffff;
-    border-width: thin;
-}
-
-div.floatMenuTopSplitLeft {
-    font-family: helvetica, arial, 'sans serif';
-    font-size: 100%;
-    margin-left: 0%;
-    margin-right: 90%;
-    padding: 0em 1em 0em 0.2em;
-    text-align: left;
-    color: black;
-    position:fixed;
-    top:0;
-    left:0;
-    opacity:1;
-    clear: both;
-    border-right: solid #00000f;
-    border-width: thin;
-}
-
-div.floatMenuTopSplitRight {
-    font-family: helvetica, arial, 'sans serif';
-    font-size: 80%;
-    margin-left: 90%;
-    margin-right: 0%;
-    padding: 0.2em 0.2em 0.2em 0.2em;
-    text-align: right;
-    color: black;
-    position:fixed;
-    top:0;
-    right:0;
-    opacity:1;
-    clear: both;
-    background-color: #dddccc;
-    border-bottom: solid #ffffff;
-    border-width: thin;
 }
 
 div.solution {
@@ -732,7 +536,7 @@ h1,h2,h3{
 hr {
     height: 3px;
     color:#000000;
-    width: 70%;
+    width: 90%;
     text-align:center;
 }
 
@@ -748,45 +552,9 @@ a:hover   {
     color: #000000;
     background:silver;
 }
-
-a.glossRef:link {
-    color:#006600;
-    text-decoration: none;
-    font-variant: small-caps;
-    font-stretch: wider;
-    font-weight: bold;
-    font-size: 105%;
-}
-
 a.glossRef:visited {color:#107080}
 
 a.fnLink:link {color:#800080}
-
-a.solLink:link {color:#000099}
-
-a.solLink:visited {color:#000099}
-
-a.chapterLink:link {
-     text-decoration:none;
-     color: #000085;
-}
-
-a.chapterLink:visited {
-     text-decoration:none;
-     color: #000085;
-}
-
-a.chapterLink:hover {
-     text-decoration:none;
-     color: #000099;
-     background: silver;
-}
-
-span.ansSpan {
-     color:  #000099;
-     font-size: 85%;
-     margin-left: 0%;
-}
 
 span.defSpan {
      font-size: 100%;
@@ -799,14 +567,6 @@ span.appCtrlName {
      margin-left: 0%;
 }
 
-span.chapterCite {
-     font-weight: bold;
-     font-variant: small-caps;
-     font-stretch: wider;
-     color:  #000085;
-     font-size: 100%;
-}
-
 span.calloutCaption {
     font-family: helvetica, arial, 'sans serif';
     font-size: 120%;
@@ -814,12 +574,14 @@ span.calloutCaption {
     color: #000000;
 }
 
+/*
 span.math {
     font-family: helvetica, arial, 'sans serif';
     color:  #000085;
     text-align: center;
     font-style: italic;
 }
+*/
 
 span.example {
     font-family: helvetica, arial, 'sans serif';
@@ -839,33 +601,8 @@ span.termOfArt {
 }
 
 
-.footnote {
-    font-family: helvetica, arial, 'sans serif';
-    color: #000000;
-    background-color: #ffddff;
-    border: solid #600060;
-    font-size: 85%;
-    margin-left: 6.03%;
-    margin-right: 6.03%;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    display: none;
-}
-
-.footnoteLink {
-    font-family: helvetica, arial, 'sans serif';
-    color: #800080;
-    font-size: 85%;
-}
-
-.fnLink {
-    font-family: helvetica, arial, 'sans serif';
-    color: #800080;
-    font-size: 85%;
-}
-
-pre { 
-    font-family: monospace; 
+pre {
+    font-family: monospace;
 }
 
 span.big {
@@ -897,7 +634,7 @@ div.chartCaption {
     margin-bottom:    2em;
 }
 
-div.horizontalPipe {    
+div.horizontalPipe {
     z-index:          0;
     font-family:      helvetica, arial, 'sans serif';
     font-size:        60%;
@@ -908,7 +645,7 @@ div.horizontalPipe {
     text-align:       center;
 }
 
-div.verticalPipe {    
+div.verticalPipe {
     z-index:          0;
     font-family:      helvetica, arial, 'sans serif';
     font-size:        60%;
@@ -931,59 +668,6 @@ a.chart:hover {
     background-color: #f0f0ff;
     text-decoration:  none;
 }
-
-
-/*  Floating Navigation Menu */
-
-#navMenu {
-    position:fixed;
-    top:0;
-    left:0;
-}
-
-#navMenu, #navMenu ul {
-    font-family: helvetica, arial, 'sans serif';
-    margin: 1px;
-    padding: 2px;
-    text-align: left;
-    color: black;
-    opacity:1;
-    clear: both;
-    color: #000099;
-    background-color: #ccccff;
-    border-bottom: solid #000000;
-    border-right: solid #000000;
-    border-width: 2px;
-    list-style: none;
-    line-height: 1;
-    z-index: 7;
-}
-
-#navMenu ul li {
-    width: 12em;
-}
-
-#navMenu a {
-	display: block;
-        text-decoration: none;
-    font-variant: small-caps;
-	width: 11.5em;
-}
-
-
-
-ul.videogroup  {
-    margin:0 0 20px 0;
-    padding:0;
-    list-style:none;
-}
-ul.videogroup li {
-    display:inline-block;
-    padding:0 20px 0 0;
-    margin:0;
-}
-
-
 
 div.venn {
     position:         relative;
@@ -1187,8 +871,6 @@ div.rect40x50_center {
     border-style:     solid;
     border-width:     3px;
 }
-
-
 
 div.rect40x50_center_high {
     position:         absolute;
