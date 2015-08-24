@@ -1,5 +1,5 @@
 # PhysEng
-## Materials for an introductory graduate course in Probability and Statistics for Physicists and Engineers
+## Materials for an introductory graduate course in Probability and Statistics for Physical Scientists and Engineers
 ## Given first as a short course at University of Tokyo, August 2015
 ## Philip B. Stark http://www.stat.berkeley.edu/~stark
 
